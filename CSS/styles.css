@@ -54,13 +54,11 @@ a:hover{
   margin: auto;
   text-align: left;
 }
-.intro{
 
-}
 .top-container {
   background-color: #d4f3ef;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .top-cloud {
@@ -75,24 +73,30 @@ a:hover{
   bottom: 300px;
 }
 
-.middle-container {
-  margin: 100px 0;
+.profile-container{
+  background-color: white;
+  margin: 5% 0 5%;
+  padding: 50px 70px 50px 70px;
+}
+
+.skill-container{
+  background-color: #e4e3e3;
+  margin: 5% 0 5%;
+  padding: 50px 70px 50px 70px;
 }
 
 .bottom-container {
   margin-bottom: 0;
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding: 50px 70px 70px 70px;
 }
 
 .footer-link {
   color: #11999E;
 }
-.skills{
-  margin-top: 60px;
-}
+
 .skill-row{
-  margin: 100px auto 100px auto;
+  margin: 70px auto 70px auto;
   width: 50%;
   text-align: left;
 }
@@ -121,7 +125,7 @@ a:hover{
 }
 .contact-me{
   width: 40%;
-  margin: 40px auto 15px auto;
+  margin: 10px auto 15px auto;
 }
 .copyright{
   color: #EAF6F6;
